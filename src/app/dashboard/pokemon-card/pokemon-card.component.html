@@ -1,0 +1,22 @@
+<div class="pk-card-container col-lg-3 col-md-4  col-sm-6">
+    <div class="card" >
+    <figure class="pk-img-container">
+    <a
+        [routerLink]="['/pokemon',pokemonId ]" 
+
+    href="#">
+    <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/{{pokemonId | pokemonId}}.png" alt="Card image" style="width:100%">
+    </a>
+    </figure>
+    <div >
+    
+    <div class="pk-container">
+    <span class="pk-number">#{{Pokemon['id'] | pokemonId}}  </span>
+    <h4 class="title">{{Pokemon['name'] | titlecase }}</h4>
+    <!-- <span class="pk-tag badge badge-pill badge-primary">Primary</span>
+    <span class="pk-tag badge badge-pill badge-secondary">Secondary</span>
+    <span class=" pk-tag badge badge-pill badge-success">Success</span> -->
+    </div>
+    </div>
+    </div>        
+    </div>

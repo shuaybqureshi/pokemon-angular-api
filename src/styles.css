@@ -1,1 +1,134 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+    .pk-img-container{
+        background: #F2F2F2;
+    float: left;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 0px;
+    }
+    .pk-number{
+    color: #919191;
+    font-size: 80%;
+    padding-top: 2px;
+    font-weight: 700;
+    }
+    .pk-container{
+    padding: 2px 1.25rem 5px;
+
+    }
+    .pk-card-container{
+        max-width: 300px;
+        margin: 10px auto;
+    }
+    .pk-tag{
+        padding: 5px 20px;
+        margin: 2px;
+    }
+
+    .pk-details-img-container{
+        background: #F2F2F2;
+    float: left;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 0px;
+    }
+    .pk-details-number{
+    color: #919191;
+    font-size: 80%;
+    padding-top: 2px;
+    font-weight: 700;
+    }
+    .pk-details-container{
+    padding: 2px 1.25rem 5px;
+
+    }
+  
+    .pk-details-tag{
+        font-size: 24px;
+        margin: 2px 10px;
+    padding: 9px 32px;
+    border-radius: 6px;
+
+    }
+    .pk-details-card-container{
+        max-width: 450px;
+
+    }
+    .pk-details-title{
+        text-align: center;
+        margin: 40px;
+    }
+    .grey{
+        color: grey;
+    }
+
+    .pk-details-container{
+        margin: 10px;
+    }
+    .pk-details-card{
+        background-color: #30a7d7;
+    border-radius: 8px;
+    margin: 10px 10px 15px;
+    }
+    .pk-details-card-title{
+        color: white;
+    }
+    .pk-card-text{
+        padding: 10px;
+    }
+    .light-blue{
+        background-color: #30a7d7;
+    }
+    .light-grey{
+        
+    background-color: #C0C0C0;
+
+    }
+    .pk-type{
+
+    }
+    .type-normal{
+       background-color:  #A8A878;
+    }
+    .type-fighting{
+        background-color: #C03028;
+    }
+    .type-flying{
+        background-color: #A890F0;
+    }
+    .type-poison{
+        background-color: purple;
+    }
+    .type-ground{
+        background-color: grey;
+    }
+    .type-bug{
+        background-color: green;
+    }
+    .type-ghost{
+        background-color: darkviolet;
+    }
+    .type-steel{
+        background-color: steelblue;
+    }
+    .type-fire{
+        background-color: orangered;
+    }
+    .type-water{
+        background-color: lightblue;        
+    }
+    .type-grass{
+        background-color: lightgreen;
+    }
+    .type-electric{
+        background-color: #e7e700;
+    }
+    .type-default{
+        background-color: grey;
+    }
